@@ -1,0 +1,5 @@
+print("Introduzca su peso en kgs: ")
+peso = float(input())
+print("Introduzca su estaura en mts: ")
+estatura = float(input())
+print("Tu índice de masa corporal es: " + str(round(peso/estatura,2)))
